@@ -49,7 +49,7 @@ async def on_message(message):
         await message.channel.send(f':game_die:{v13}')
     if message.content == ('E! help'):
         await message.channel.send(20 * '=+=')
-        await message.channel.send('COMANDOS ÚTEIS DO ENZOTRON v0.3 \n E! roll (n° de lados) --> Joga um dado \n E! moeda --> Cara ou coroa \n E! bebida --> Para encher a cara \n E! esqueleto --> Um GIF divertido de ódio à Otakus \n E! arte --> Para apreciar uma bela obra \n Emath+ (n°1) (n°2) --> Para somar dois números \n Emath- (n°1) (n°2) --> Para fazer uma subtração \n E! gandalf --> Para se divertir com um fantástico GIF \n E! hey --> Para dar um oi ao Enzotron')
+        await message.channel.send('COMANDOS ÚTEIS DO ENZOTRON v0.3.5 \n E! roll (n° de lados) --> Joga um dado \n E! moeda --> Cara ou coroa \n E! bebida --> Para encher a cara \n E! esqueleto --> Um GIF divertido de ódio à Otakus \n E! arte --> Para apreciar uma bela obra \n Emath+ (n°1) (n°2) --> Para somar dois números \n Emath- (n°1) (n°2) --> Para fazer uma subtração \n E! gandalf --> Para se divertir com um fantástico GIF \n E! hey --> Para dar um oi ao Enzotron')
         await message.channel.send(20 * '=+=')
     if message.content == ('E! bebida'):
         v4 = random.randint(1, 2)
@@ -98,4 +98,4 @@ async def on_message(message):
 
         msg = await client.wait_for('message', check=check)
         await channel.send('OLÁ, {.author}!'.format(msg))
-client.run('NzEwOTg2Njc5MDk5MzI2NDk0.Xr8hIw.qmq06CWrSF65x2qOOVOML5wkJyo')
+client.run('NzEwOTg2Njc5MDk5MzI2NDk0.XsIBZA.l8lLYuvaCnOQghTdBIUEZR459hk')
