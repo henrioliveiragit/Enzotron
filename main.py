@@ -1,4 +1,4 @@
-import asyncio
+import dontreadme
 import random
 import discord
 
@@ -24,7 +24,7 @@ async def on_message(message):
         if v1 == 2:
             await message.channel.send('Coroa!')
     if message.content == ('E!'):
-        await message.channel.send('Enzotron BOT ativo e operante!')
+        await message.channel.send('Enzotron v0.4 BOT ativo e operante!')
     if message.content == ('Enzo é corno'):
         await message.add_reaction('😡')
         v2 = random.randint(1, 3)
@@ -98,4 +98,4 @@ async def on_message(message):
 
         msg = await client.wait_for('message', check=check)
         await channel.send('OLÁ, {.author}!'.format(msg))
-client.run('NzEwOTg2Njc5MDk5MzI2NDk0.XsIBZA.l8lLYuvaCnOQghTdBIUEZR459hk')
+client.run(dontreadme.token)
